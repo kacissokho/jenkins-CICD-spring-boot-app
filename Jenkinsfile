@@ -9,8 +9,8 @@ pipeline {
     environment {
         DOCKERHUB_AUTH = credentials('DockerHubCredentials')
         MYSQL_AUTH= credentials('MYSQL_AUTH')
-        HOSTNAME_DEPLOY_PROD = "20.115.44.142"
-        HOSTNAME_DEPLOY_STAGING = "20.115.42.32"
+        HOSTNAME_DEPLOY_PROD = "54.226.144.55"
+        HOSTNAME_DEPLOY_STAGING = "54.92.175.115"
         IMAGE_NAME= 'paymybuddy'
         IMAGE_TAG= 'latest'
     }
