@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        DOCKERHUB_AUTH = credentials('DockerHubCredentials')
+        DOCKERHUB_AUTH = credentials('dockerhub')
         MYSQL_AUTH= credentials('MYSQL_AUTH')
         HOSTNAME_DEPLOY_PROD = "54.226.144.55"
         HOSTNAME_DEPLOY_STAGING = "54.92.175.115"
